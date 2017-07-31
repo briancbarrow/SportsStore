@@ -41,6 +41,6 @@ namespace SportsStore.WebUI.Infrastructure
             });
 
             kernel.Bind<IProductRepository>().ToConstant(mock.Object);
-();        }
+        }
     }
 }

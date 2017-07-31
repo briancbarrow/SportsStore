@@ -95,7 +95,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SportsStore.Domai\SportsStore.Domain.csproj">
+    <ProjectReference Include="..\SportsStore.Domain\SportsStore.Domain.csproj">
       <Project>{b78936d7-a277-4461-9109-5d22d018a079}</Project>
       <Name>SportsStore.Domain</Name>
     </ProjectReference>
