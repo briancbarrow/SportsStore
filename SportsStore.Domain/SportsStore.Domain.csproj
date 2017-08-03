@@ -7,8 +7,8 @@
     <ProjectGuid>{B78936D7-A277-4461-9109-5D22D018A079}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SportsStore.Domai</RootNamespace>
-    <AssemblyName>SportsStore.Domai</AssemblyName>
+    <RootNamespace>SportsStore.Domain</RootNamespace>
+    <AssemblyName>SportsStore.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -70,6 +70,7 @@
   <ItemGroup>
     <Compile Include="Abstract\IProductRepository.cs" />
     <Compile Include="Concrete\Context.cs" />
+    <Compile Include="Concrete\EFProductRepository.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
