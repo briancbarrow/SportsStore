@@ -57,4 +57,4 @@ namespace SportsStore.Domain.Entities
         public int Quantity { get; set; }
     }
 }
-}
+
