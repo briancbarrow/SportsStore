@@ -286,3 +286,7 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+/SportsStore.WebUI/Controllers/AdminController.cs
+/SportsStore.WebUI/Views/Shared/_AdminLayout.cshtml
+/SportsStore.WebUI/Views/Shared/ProductSummary.Mobile.cshtml
+/SportsStore.UnitTests/AdminTests.cs
